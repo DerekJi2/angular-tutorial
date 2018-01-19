@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/using-angular-2-asp-net-mvc-5-visual-studio/bin
+/using-angular-2-asp-net-mvc-5-visual-studio/node_modules
+/using-angular-2-asp-net-mvc-5-visual-studio/obj/Debug
+/packages
+/.vs
