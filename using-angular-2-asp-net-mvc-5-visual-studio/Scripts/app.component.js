@@ -6,23 +6,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-/// <reference path ="../typings/globals/jquery/index.d.ts"/> 
 var core_1 = require("@angular/core");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.h2content = $('.navbar-brand').html();
-        this.hahastr = 'haha string';
-        this.title = 'ASP.NET MVC 5 with Angular 2';
-        this.skills = ['MVC 5', this.h2content + ' (jquery get)', this.hahastr, 'haha', 'Angular 2', 'TypeScript', 'Visual Studio 2015'];
-        this.myskills = this.skills[4];
+        this.title = 'Tour of Heroes';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: "/tsScripts/app.template.html"
+            templateUrl: '/tsScripts/app.component.html',
+            styleUrls: ['/tsScripts/app.component.css']
         })
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=app.component.js.map

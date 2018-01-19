@@ -2,15 +2,7 @@
 import { Component } from '@angular/core';
 @Component({
     selector: 'my-app',
-    template: `    
-    <h2>My favorite skill is: {{myskills}}</h2>
-    <p>Skill:</p>
-    <ul>
-      <li *ngFor="let skl of skills">
-        {{ skl }}
-      </li>
-    </ul>
-  `
+    templateUrl: "/tsScripts/app.template.html"
 })
 export class AppComponent {
     h2content = $('.navbar-brand').html();
